@@ -30,8 +30,8 @@ Siga os passos abaixo para configurar o ambiente e executar o projeto:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/Alleasyapp.git
-cd Alleasyapp
+git clone https://github.com/seu-usuario/alleasy-test.git
+cd alleasy-test
 
 # Use Node.js 20
 nvm use 20
@@ -109,22 +109,3 @@ Para testar a autenticação com a API Reqres.in, use:
 
 - **Login**: email: `eve.holt@reqres.in` / senha: `cityslicka`
 - **Registro**: email: `eve.holt@reqres.in` / senha: `pistol`
-
-## Como Adicionar o GIF de Demonstração ao Projeto
-
-1. Mova o GIF que você gravou para a pasta `src/assets/`
-2. Renomeie o arquivo para `demo.gif`
-3. Ou altere o caminho no README.md para apontar para o local correto do seu GIF
-4. Exemplo para adicionar GIF ao README:
-   ```markdown
-   ![Demonstração do App](src/assets/demo.gif)
-   ```
-
-## Solução de Problemas
-
-Se encontrar problemas ao executar o projeto, tente os seguintes passos:
-
-1. Verifique se está usando Node.js 20: `nvm use 20`
-2. Tente uma reinstalação completa: `npm run reinstall`
-3. Para o iOS, verifique se o Bridging Header está configurado corretamente no Xcode
-4. Para o Android, verifique se a variável JAVA_HOME está configurada corretamente
